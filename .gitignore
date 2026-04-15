@@ -1,0 +1,27 @@
+# --- Pliki wykonywalne (binarne) ---
+# Ignoruje plik wynikowy char_count (skompilowany program)
+char_count
+
+# --- Pliki obiektowe i biblioteki ---
+*.o
+*.out
+*.so
+*.a
+
+# --- Pliki tymczasowe edytorów ---
+# Vim
+*~
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# --- Logi i pliki zrzutu ---
+*.log
+core
