@@ -4,7 +4,7 @@ ifdef CI
 override CFLAGS=-std=c17 -Wall -Wextra -Wshadow -Wvla -Werror -Wno-unused-parameter -Wno-unused-const-variable
 endif
 
-NAME=Zadanie1
+NAME=PolishTask
 
 .PHONY: clean all
 
